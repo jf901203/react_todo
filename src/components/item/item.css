@@ -1,0 +1,12 @@
+.item{
+  list-style: none;
+  border-bottom: 1px solid rgba(7,17,27,.1);
+  position: relative;
+}
+.btn{
+  position: absolute;
+  right: 5px;
+}
+p{
+  margin: 3px 0px;
+}
