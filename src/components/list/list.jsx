@@ -14,9 +14,11 @@ export default class List extends Component {
 
   render() {
     const {todos,delHandel}=this.props
+    const display=todos.length===0 ? 'block' : 'none'
     return (
       <div className="list_content">
-        <h1>我是list组件</h1>
+        <p>评论回复:</p>
+        <h1 style={{display}}>暂无评论,点击左侧添加评论</h1>
          <ul>
            {
              todos.map((todo,index)=><Item 
