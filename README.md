@@ -66,9 +66,9 @@
 3. 在类中这样声明：
 
 		static propTypes={
-		    count:PropTypes.number.isRqueried,
-		    increment:PropTypes.func.isRqueried,
-		    decrement:PropTypes.func.isRqueried
+		    count:PropTypes.number.isRequired,
+		    increment:PropTypes.func.isRequired,
+		    decrement:PropTypes.func.isRequired
 		  }
 
 
